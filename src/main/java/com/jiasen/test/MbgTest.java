@@ -3,11 +3,15 @@ package com.jiasen.test;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 import org.mybatis.generator.api.MyBatisGenerator;
 import org.mybatis.generator.config.Configuration;
 import org.mybatis.generator.config.xml.ConfigurationParser;
 import org.mybatis.generator.internal.DefaultShellCallback;
+
+import com.jiasen.bean.Employee;
+import com.jiasen.dao.EmployeeMapper;
 
 public class MbgTest {
 
@@ -21,6 +25,10 @@ public class MbgTest {
 //		MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, callback, warnings);
 //		myBatisGenerator.generate(null);
 //		System.out.println("生成完成------------------");
+		
+		
+		
+
 	}
 
 }

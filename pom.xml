@@ -47,7 +47,6 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 			<version>5.2.8.RELEASE</version>
-			<scope>test</scope>
 		</dependency>
 
 		<!-- Spring 面向切面的 -->
@@ -113,7 +112,6 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
-			<scope>test</scope>
 		</dependency>
 
 	</dependencies>
